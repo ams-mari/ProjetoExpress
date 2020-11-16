@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -39,3 +40,20 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+=======
+const express = require('express');
+const rotasProduto = require('./rotas/rotasProduto')
+let app = express();
+
+// rota
+
+app.get('/', (req,res)=> res.send("Olá mundo!"));
+app.get('/contatos', (req,res)=> res.send("Página Contatos"));
+
+app.use('/produtos', rotasProduto);
+
+
+// criando um servidor
+
+app.listen(3000, ()=> console.log("Servidor rodando na porta 3000")); 
+>>>>>>> 92a27890c052318e207d5d23d76923dd51f28607

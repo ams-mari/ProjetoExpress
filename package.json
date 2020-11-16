@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
@@ -12,5 +13,20 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
+=======
+  "name": "projetoexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+>>>>>>> 92a27890c052318e207d5d23d76923dd51f28607
   }
 }
